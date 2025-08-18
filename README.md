@@ -17,7 +17,9 @@ HTML、CSS、JavaScript を使用して作成しました。
 - JavaScript
 
 ## 📸 スクリーンショット
-![おみくじスクリーンショット](img/screenshot.png)
+![おみくじスクリーンショット](img/omikuji2.png)
+(img/omikuji1.png)
+
 
 ## 📚 プロジェクトについて
 このプロジェクトはポートフォリオ用に作成し、以下のスキルを練習しました：
