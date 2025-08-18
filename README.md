@@ -17,8 +17,10 @@ HTML、CSS、JavaScript を使用して作成しました。
 - JavaScript
 
 ## 📸 スクリーンショット
-![おみくじスクリーンショット](img/omikuji2.png)
-(img/omikuji1.png)
+![おみくじスクリーンショット](img/omikuji20.png)
+
+## 📸 スクリーンショット
+![おみくじスクリーンショット](img/omikuji30.png)
 
 
 ## 📚 プロジェクトについて
