@@ -1,26 +1,26 @@
-# Omikuji Fortune Web App 🎴
+# おみくじ Web アプリ 🎴
 
-A simple Japanese fortune-telling web application where users can draw a random fortune (大吉, 中吉, 小吉, etc.).  
-Built with **HTML, CSS, and JavaScript**.
+ユーザーがランダムにおみくじ（大吉、中吉、小吉 など）を引くことができる、シンプルな日本のおみくじ Web アプリです。  
+HTML、CSS、JavaScript を使用して作成しました。
 
-## 🚀 Live Demo
-👉 [Click here to try the app](https://khanalganesh.github.io/mobileapp/)
+## 🚀 ライブデモ
+👉 [こちらからアプリを試せます](https://khanalganesh.github.io/mobileapp/)
 
-## ✨ Features
-- Random fortune generator
-- Responsive design for PC and mobile
-- Fun cultural theme
+## ✨ 主な機能
+- ランダムおみくじ生成
+- PC・モバイル対応のレスポンシブデザイン
+- シンプルで使いやすいインターフェース
 
-## 🛠️ Tech Stack
+## 🛠️ 使用技術
 - HTML
 - CSS
 - JavaScript
 
-## 📸 Screenshots
-![Omikuji Screenshot](img/screenshot.png)
+## 📸 スクリーンショット
+![おみくじスクリーンショット](img/screenshot.png)
 
-## 📚 About the Project
-This project was created as part of my portfolio to practice:
-- DOM manipulation
-- Event handling
-- UI/UX basics
+## 📚 プロジェクトについて
+このプロジェクトはポートフォリオ用に作成し、以下のスキルを練習しました：
+- DOM 操作
+- イベント処理
+- 基本的な UI/UX デザイン
