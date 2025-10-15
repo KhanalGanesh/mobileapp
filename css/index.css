@@ -73,7 +73,8 @@ h2{
     box-shadow:0 0 0.5em rgb(73, 72, 72);
 }
 main > p {
-    font: 1.2em bold;
+    font-size: 1.2em;
+    font-weight: bold;
 }
 
 /*****************************/
@@ -112,6 +113,7 @@ a:hover{
     margin: 0;
     line-height: 1em;
     overflow: hidden;
+    opacity: 0;
 }
 
 .item02{
@@ -121,6 +123,7 @@ a:hover{
     margin: 0;
     line-height: 1em;
     overflow: hidden;
+    opacity: 0; 
 }
 
 .item01 img, .item02 img{
@@ -133,7 +136,20 @@ a:hover{
     height: 6em;
     overflow: hidden;
 }
-
+.fade-in{
+    animation: fadein 1.5s ease-out forwards;
+}
+@keyframes fadein{
+    0%{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100%
+    {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
 /*****************************/
 /* フッター                   */
 /*****************************/
@@ -162,10 +178,10 @@ footer> p {
     
 }
 .back{
-    text-align: 0.5em;
-border-radius: 03em;
-color: whitesmoke;
-font-size: 1.5em;
-background: rgb(26, 212, 212);
-cursor: pointer;
+    padding-left: 0.5em;
+    border-radius: 3em;
+    color: whitesmoke;
+    font-size: 1.5em;
+    background: rgb(26, 212, 212);
+    cursor: pointer;
 }
