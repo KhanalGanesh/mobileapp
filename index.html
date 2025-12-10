@@ -1,115 +1,42 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
-
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Ganesh page</title>
-  <meta name="description" content="Ganesh Game">
-
-  <link rel="icon" href="favicon.ico">
-  <link rel="stylesheet" href="css/index.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ganesh App Collection</title>
+  <style>
+    body { font-family: Arial; padding: 20px; background:#f6f6f6; }
+    h1 { margin-bottom: 20px; }
+    ul { list-style:none; padding:0; }
+    li { margin:12px 0; }
+    a {
+      display:block;
+      padding:12px;
+      background:white;
+      border-radius:8px;
+      border:1px solid #ddd;
+      text-decoration:none;
+      font-size:18px;
+      color:#333;
+    }
+    a:hover { background:#e8e8e8; }
+  </style>
 </head>
-
 <body>
-  <div class="back">
-    <button id="btn99" class="btn" type="button" onclick="history.back()" .back</button>
-  </div>
-  <!-- 見出し（みだし） -->
-  <header class="header">
-    <h1>Webアプリ作成にチャレンジ中</h1>
-  </header>
 
-  <!-- 作成したアプリ -->
-  <section class="container01">
-    <h2>作成したアプリ</h2>
-    <div class="game">
+<h1>📱 Ganesh Mobile App Collection</h1>
+<ul>
+  <li><a href="omikuji.html">🎴 おみくじ</a></li>
+  <li><a href="10a_omikuji/index.html">🎴 おみくじ 10a</a></li>
+  <li><a href="10c_omikuji/index.html">🎴 おみくじ 10c</a></li>
+  <li><a href="omikuji_kimetsu.html">鬼滅の刃おみくじ</a></li>
 
-      <div class="container01-01">
-        <div class="item item01">
-          <a href="./09_omikuji/omikuji.html" title="今日の運勢を占うゲームです。"><img src="img/sakura.jpg" alt="おみくじ１"><br>おみくじ１</a>
-        </div>
-        <div class="item item01">
-          <a href="./10a_omikuji/omikuji.html" title="音付きです。"><img src="img/omikuji2.png" alt="おみくじ２"
-              class="img_omikuji2"><br>おみくじ２</a>
-        </div>
-        <div class="item item01">
-          <a href="./10c_omikuji/omikuji.html" title="テキストも画像です。"><img src="img/omikuji3.png" alt="おみくじ３"><br>おみくじ３</a>
-        </div>
-        <div class="item item01">
-          <a href="01_omikuji_kimetsu/omikuji_kimetsu.html" title="鬼滅の刃"><img src="img/zenitsu.png"
-              alt="鬼滅の刃おみくじ"><br>鬼滅の刃<br>おみくじ</a>
-        </div>
-      </div>
+  <li><a href="calculator.html">🧮 計算機</a></li>
 
-      <div class="container01-02">
-        <div class="item item01">
-          <a href="./calculator/calculator.html" title="かんたんな計算機です。"><img src="img/calc1.jpg"
-              alt="計算機１"><br>計算機１</a>
-        </div>
+  <li><a href="timeguess.html">⏱ クイズ時間当て</a></li>
+</ul>
 
-        <div class="item item01">
-          <a href="02_calculator_v2/calculator.html" title="=ボタンをつけた計算機です。"><img src="img/calc2.jpg"
-              alt="計算機２"><br>計算機２</a>
-        </div>
-
-        <div class="item item01">
-          <a href="02_calculator_v3/calculator2.html" title="=全部ボタンの計算機です。"><img src="img/calc3.jpg"
-              alt="計算機３"><br>計算機３</a>
-        </div>
-
-        <div class="item item01">
-          <a href="98_Time guessing quiz/timeguess.html" title="=時間当てクイズです"><img src="img/clock1.png"
-              alt="クイズ">時間当て<br>クイズ</a>
-        </div>
-      </div>
-
-      <div class="container01-03">
-        <div class="item item01">
-          <a href="04_memo/memo.html" title="メモアプリです。"><img src="img/memo.png" alt="memo"><br>memo</a>
-        </div>
-
-        <div class="item item01">
-          <a href="04_memo_app_v1/memo.html" title="メモアプリv1です。"><img src="img/memo1.png" alt="memo v1"><br>memo v1</a>
-        </div>
-
-        <div class="item item01">
-          <a href="04_memo_app_v2/memo.html" title="メモアプリv2です。"><img src="img/memo2.png" alt="memo v2"><br>memo v2</a>
-        </div>
-
-        <div class="item item01">
-          <a href="04_memo_app_v3/memo.html" title="メモアプリv3です。"><img src="img/memo3.png" alt="memo v3"><br>memo v3</a>
-        </div>
-      </div>
-
-      <div class="container01-04">
-        <div class="item item02">
-          <a href="05_tic tac toe_06_sound/tic_tac_toe_fix.html" title="2人でやるゲームです。"><img src="img/azarashi.png"
-              alt="〇✖ゲーム"><br>〇✖ゲーム</a>
-        </div>
-
-        <div class="item item02">
-          <a href="06_tic tac toe vs computer/tic_tac_toe_vs computer.html" title="vs computerです。"><img
-              src="img/penguin.png" alt="〇✖ゲームvs computer"><br>〇✖ゲームvs computer</a>
-        </div>
-
-        <div class="item item02">
-          <a href="07_tic tac toe vs computer level/tic_tac_toe_vs computer.html" title="vs computer level付き。"><img
-              src="img/bear.png" alt="〇✖ゲーム"><br>〇✖ゲームvs computer<br>level設定</a>
-        </div>
-
-      </div>
-
-    </div>
-    <div class="filler01"></div>
-  </section>
-
-  <!-- フッター -->
-  <footer>
-    <script src="js/index.js"></script>
-    <p>Copyright 2025KHANALGANESH</p>
-  </footer>
+<p>© 2025 KHANAL GANESH</p>
 
 </body>
-
 </html>
